@@ -1,0 +1,39 @@
+You are in maze now. Find a path and answer a question to obtain the key 1 !
+
+Here you have a maze, you are in point A, and you need to get to the point B
+
+[33m
+  A
+|    ------------------------------------------------
+|              |               |                    |
+|              |               |                    |
+|    -----     |    ------          --------        |
+|    |         |         |          |    |          |
+|    |         |         -----      |    |    ------|
+|    ----------------        |           |    |     |
+|        |          |        |           |    |     |
+|        |          |    |   -------------          |
+|----    |     ------    |       |                  |
+|              |         |       |                  |
+|              |         ---------                  |
+|      ---------    |        |          ------------|
+|                   |        |                      |
+|                   |        |                      |
+-----------------------------------------------     -
+                                                 B
+[0m
+
+Describe your path, using these commands:
+"0" to go forward
+"1" to turn left
+"2" to turn right
+
+Combine all steps in one string, like
+010201020120
+
+Then use
+"cat [your path]" to get first key.
+
+After that, use following command to return back:
+cd .. ; cat LOOK
+
